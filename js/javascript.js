@@ -2,8 +2,8 @@ const div = createNewElement("div", null, "div");
 const titlediv = createNewElement("div", "JS Counter", "titlediv");
 const numberdiv = createNewElement("div", "0", "numberdiv");
 const buttondiv = createNewElement("div", null, "buttondiv");
-const add_button = createNewElement("button", "Add", null);
-const less_button = createNewElement("button", "Less", null);
+const add_button = createNewElement("button", "+", "buttonwidth");
+const less_button = createNewElement("button", "-", "buttonwidth");
 const reset_button = createNewElement("button", "Reset", null);
 
 const append_elements = (parent_node, array_elements) => {
